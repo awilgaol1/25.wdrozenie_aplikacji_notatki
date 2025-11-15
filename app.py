@@ -44,8 +44,8 @@ def transcribe_audio(audio_bytes):
 @st.cache_resource
 def get_qdrant_client():
     return QdrantClient(
-    url=get_secret["QDRANT_URL"],
-    api_key=get_secret["QDRANT_API_KEY"],
+    url=get_secret("QDRANT_URL"),
+    api_key=get_secret("QDRANT_API_KEY"),
 )
 
 def assure_db_collection_exists():
