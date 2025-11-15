@@ -12,7 +12,7 @@ env = dotenv_values(".env")
 
 def get_secret(key: str):
     """Bezpieczne pobieranie sekretów: najpierw z st.secrets, potem z .env, na końcu z os.environ"""
-    return st.secrets.get(key) or env.get(key) or os.getenv(key)
+    return st.secrets.get(key) or env.get(key)
 
 
 EMBEDDING_MODEL = "text-embedding-3-large"
