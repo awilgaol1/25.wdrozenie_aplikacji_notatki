@@ -1,9 +1,8 @@
 streamlit
-openai>=1.40.0,<1.50.0
+openai
 qdrant-client
 pywin32
-ffmpeg-python
 python-dotenv
 streamlit-audiorecorder
-pydub>=0.25.1
+pydub
 pandas
