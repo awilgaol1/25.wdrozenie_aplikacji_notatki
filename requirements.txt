@@ -1,8 +1,6 @@
 streamlit
 openai
 qdrant-client
-pywin32
 python-dotenv
 streamlit-audiorecorder
 pydub
-pandas
